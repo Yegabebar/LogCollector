@@ -1,0 +1,19 @@
+package com.yegabebar.logcollector.agent;
+
+import java.io.File;
+
+public class fileClass {
+	
+	
+	public static void createAndCheck(String path) {
+		
+		try {
+	         File file = new File(path);
+	         file.createNewFile();
+	         file.exists();
+	         System.out.println("Ok");
+	      } catch(Exception e) {
+	         e.printStackTrace();
+	      }
+	}
+}

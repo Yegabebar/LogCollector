@@ -1,10 +1,26 @@
 package com.yegabebar.logcollector.agent;
 
+import java.io.File;
+import java.io.IOException;
+
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args) throws IOException {
+		//On vérifie si le dossier de travail existe
+		String Directory = "C:/LogCollector/";
+		File workDirectory = new File(Directory);
+		String procmonZipURL = "https://download.sysinternals.com/files/ProcessMonitor.zip";
+		String procmonFullPath = Directory+"ProcessMonitor.zip";
+		
+		//S'il n'existe pas, on le crée et on vérifie: intègre un catch mais pas sûr que pertinent dans une fonction
+		if(!workDirectory.exists()){fileClass.createAndCheck(Directory);}
+		
+		//On dl procmon
+		fileClass.downloadFile(procmonZipURL, procmonFullPath);
+		
+		//Puis on le lance via commande (méthode d'exécution de programme?)
+		
+		
 	}
 
 }

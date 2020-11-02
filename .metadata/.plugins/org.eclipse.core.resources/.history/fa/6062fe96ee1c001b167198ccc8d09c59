@@ -1,0 +1,21 @@
+package com.yegabebar.logcollector.agent;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String Directory = "C:/LogCollector/";
+
+		//vérification présence sous dossier LogCollector dans C:\ ou dossier de l'utilisateur courant
+		
+		fileClass.createAndCheck(Directory);
+		
+		
+		
+		//On dl procmon
+		
+		//Puis on le lance via commande (méthode d'exécution de programme?)
+		
+		
+	}
+
+}

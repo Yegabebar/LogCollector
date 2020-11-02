@@ -1,0 +1,29 @@
+package com.yegabebar.logcollector.agent;
+
+import java.io.File;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//On vérifie si le dossier de travail existe
+		String Directory = "C:/LogCollector/";
+		String procmonURL = "https://download.sysinternals.com/files/ProcessMonitor.zip";
+		File file = new File(Directory);
+		//S'il n'existe pas, on le crée et on vérifie: intègre un catch mais pas sûr que pertinent dans une fonction
+		if(!file.exists()){fileClass.createAndCheck(Directory);}
+		
+		
+		//vérification présence sous dossier LogCollector dans C:\ ou dossier de l'utilisateur courant
+		
+		
+		
+		
+		
+		//On dl procmon
+		
+		//Puis on le lance via commande (méthode d'exécution de programme?)
+		
+		
+	}
+
+}

@@ -49,7 +49,6 @@
 		</list>
 		<list key="name">
 			<item value="LogCollectorAgent"/>
-			<item value="LogCollector"/>
 		</list>
 		<list key="artifactId">
 			<item value="com.yegabebar.logcollector.agent"/>

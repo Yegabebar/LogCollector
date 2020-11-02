@@ -1,0 +1,20 @@
+package com.yegabebar.logcollector.agent;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//vérification présence sous dossier LogCollector dans C:\ ou dossier de l'utilisateur courant
+		fileClass.createAndCheck("C:/Users/Downloads/DopeLogCollector/");
+		
+		//Si n'existe pas, on le créée
+		
+		//On dl procmon
+		
+		//Puis on le lance via commande (méthode d'exécution de programme?)
+		
+		
+	}
+
+}

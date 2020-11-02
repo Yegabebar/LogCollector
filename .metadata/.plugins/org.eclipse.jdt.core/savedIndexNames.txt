@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\EclipseProjects\LogCollector\.metadata\.plugins\org.eclipse.jdt.core
+2289698931.index
+3151227145.index
